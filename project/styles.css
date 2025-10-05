@@ -29,7 +29,7 @@ body {
 }
 
 .header-container {
-  width: 83%;
+  width: 84vw;
   height: 70%;
   display: flex;
   justify-content: space-between;
@@ -62,8 +62,9 @@ body {
 
 .main-section {
   width: 100%;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  /* padding-top: 10vh;
+  padding-bottom: 10vh; */
+  padding: 10vh 8vw 10vh 8vw;
 }
 
 .cover-container {
@@ -81,7 +82,7 @@ body {
   justify-content: center;
   align-items: left;
   flex-direction: column;
-  margin-left: 9vw;
+  /* margin-left: 9vw; */
 }
 
 .cover-texts {
