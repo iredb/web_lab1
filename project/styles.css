@@ -49,9 +49,7 @@ body {
 }
 
 .nav-container a {
-  text-decoration: none;
   color: var(--main-text-color);
-  font-size: 16px;
 }
 
 .nav-container span {
@@ -64,7 +62,7 @@ body {
   width: 100%;
   /* padding-top: 10vh;
   padding-bottom: 10vh; */
-  padding: 10vh 8vw 10vh 8vw;
+  padding: 8% 8vw 8% 8vw;
 }
 
 .cover-container {
@@ -93,13 +91,18 @@ body {
 h1 {
   margin: 0;
   margin-bottom: 5%;
+  font-size: 6rem;
+  color: var(--main-text-color);
+  font-family: "Changa";
+  font-weight: 100;
 }
 
-.cover-header {
-    font-size: 4.6vw;
-    color: var(--main-text-color);
-    font-family: "Changa";
-    font-weight: 100;
+h2 {
+  font-family: "Changa";
+  font-weight: 100;
+  color: var(--main-text-color);
+  font-size: 3.2rem;
+  margin: 0;
 }
 
 .cover-desctiprion {
@@ -121,16 +124,20 @@ h1 {
   max-width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 button{
   padding: 15px 25px 15px 25px;
   margin: 0px;
-  color: #FFF;
+  color: #FFF !important;
   border: 0px;
   border-radius: 4px;
   background-color: var(--cool-color);
 }
 
-.cover-watch-button {
+.watch-button {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -140,12 +147,46 @@ button{
   color: var(--main-text-color)
 }
 
-.label{
-  font-size: 0.9rem;
+.label {
+  font-size: 1.4rem;
   font-family: "Roboto";
+  color: var(--main-text-color);
 }
 
-.big-label{
+.big-label {
+  font-size: 1.9rem;
+  font-family: "Roboto";
+  color: var(--main-text-color);
+}
+
+.title {
   font-size: 1.3rem;
   font-family: "Roboto";
+  color: var(--cool-color);
+  font-weight: bold;
+}
+
+.featured-destination-content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.featured-destination-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.featured-destination-agitation {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.featured-destination-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
