@@ -60,9 +60,7 @@ body {
 
 .main-section {
   width: 100%;
-  /* padding-top: 10vh;
-  padding-bottom: 10vh; */
-  padding: 8% 8vw 8% 8vw;
+  padding: 5% 8vw 5% 8vw;
 }
 
 .cover-container {
@@ -80,7 +78,6 @@ body {
   justify-content: center;
   align-items: left;
   flex-direction: column;
-  /* margin-left: 9vw; */
 }
 
 .cover-texts {
@@ -102,6 +99,14 @@ h2 {
   font-weight: 100;
   color: var(--main-text-color);
   font-size: 3.2rem;
+  margin: 0;
+}
+
+h3 {
+  font-family: "Changa";
+  font-weight: 100;
+  color: var(--main-text-color);
+  font-size: 2rem;
   margin: 0;
 }
 
@@ -153,6 +158,12 @@ button{
   color: var(--main-text-color);
 }
 
+.medium-label {
+  font-size: 1.6rem;
+  font-family: "Roboto";
+  color: var(--main-text-color);
+}
+
 .big-label {
   font-size: 1.9rem;
   font-family: "Roboto";
@@ -160,7 +171,7 @@ button{
 }
 
 .title {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   font-family: "Roboto";
   color: var(--cool-color);
   font-weight: bold;
@@ -185,8 +196,45 @@ button{
   gap: 35px;
 }
 
+.featured-destination-watch-button {
+  color: var(--cool-color);
+}
+
 .featured-destination-texts {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 12px;
+}
+
+.join-our-adventures {
+  display: flex;
+  flex-direction: column;
+}
+
+.join-our-adventures-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 50px;
+}
+
+.place-discover-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.place-discover-card img {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.join-our-adventures-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
 }
