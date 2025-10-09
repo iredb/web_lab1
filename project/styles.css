@@ -140,6 +140,7 @@ button{
   border: 0px;
   border-radius: 4px;
   background-color: var(--cool-color);
+  cursor: pointer;
 }
 
 .watch-button {
@@ -237,4 +238,69 @@ button{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 32px;
+}
+
+.build-community{
+  background-image: url('assets/images/field.jpeg');
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.build-community-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 50px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 12px;
+  backdrop-filter: blur(4px);
+  width: fit-content;
+}
+
+.cool-form {
+  width: 40%;
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 12px;
+  backdrop-filter: blur(4px);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cool-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cool-form input,
+.cool-form select,
+.cool-form textarea {
+  padding: 20px 12px;
+  height: 70px;
+  border: 1px solid rgba(0,0,0,0.23);
+  border-radius: 4px;
+  color: rgba(0,0,0,0.6);
+}
+
+.cool-form input:focus,
+.cool-form select:focus,
+.cool-form textarea:focus {
+  outline: none;
+}
+
+.cool-form textarea {
+  min-height: 130px;
+  resize: none;
+}
+
+.cool-form button {
+  width: 40%;
 }
