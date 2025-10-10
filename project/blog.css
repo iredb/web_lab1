@@ -1,0 +1,378 @@
+:root{
+  --main-text-color: #272727;
+  --cool-color: #ff3e3e;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("assets/fonts/Roboto-Bold.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Changa";
+  src: url("assets/fonts/ChangaOne-Regular.ttf");
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--cool-color);
+  border-radius: 3px;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-container {
+  width: 84vw;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+}
+
+.nav-container a {
+  color: var(--main-text-color);
+}
+
+.nav-container span {
+  align-self: stretch;
+  width: 1px;
+  background-color:#EEEEEE;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.main-section {
+  width: 1390px;
+  padding: 5% 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 5%;
+  font-size: 4.1rem;
+  color: var(--main-text-color);
+  font-family: "Changa";
+  font-weight: 100;
+}
+
+h2 {
+  font-family: "Changa";
+  font-weight: 100;
+  color: var(--main-text-color);
+  font-size: 3.2rem;
+  margin: 0;
+}
+
+h3 {
+  font-family: "Changa";
+  font-weight: 100;
+  color: var(--main-text-color);
+  font-size: 2rem;
+  margin: 0;
+}
+
+h4 {
+  font-family: "Changa";
+  font-weight: 100;
+  color: var(--main-text-color);
+  font-size: 2.6rem;
+  margin: 0 0 15px 0;
+}
+
+h5 {
+  font-family: "Changa";
+  font-weight: 100;
+  color: var(--main-text-color);
+  font-size: 3.4rem;
+  margin: 0 0 15px 0;
+}
+
+.cool-color {
+  color: var(--cool-color) !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+button{
+  padding: 15px 25px 15px 25px;
+  margin: 0px;
+  color: #FFF !important;
+  border: 0px;
+  border-radius: 4px;
+  background-color: var(--cool-color);
+  cursor: pointer;
+  width: fit-content;
+}
+
+.small-label {
+  font-size: 1.2rem;
+  font-family: "Roboto";
+  color: #939EB4;
+  line-height: 1.4rem;
+}
+
+.label {
+  font-size: 1.4rem;
+  font-family: "Roboto";
+  color: var(--main-text-color);
+  line-height: 2.2rem;
+}
+
+.medium-label {
+  font-size: 1.6rem;
+  font-family: "Roboto";
+  color: var(--main-text-color);
+  line-height: 1.6;
+}
+
+.big-label {
+  font-size: 1.9rem;
+  font-family: "Roboto";
+  color: var(--main-text-color);
+  line-height: 2.9rem;
+}
+
+.title {
+  font-size: 1.6rem;
+  font-family: "Roboto";
+  color: var(--cool-color);
+  font-weight: bold;
+}
+
+.cool-form {
+  width: 40%;
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 12px;
+  backdrop-filter: blur(4px);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cool-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cool-form input,
+.cool-form select,
+.cool-form textarea {
+  padding: 20px 12px;
+  height: 70px;
+  border: 1px solid rgba(0,0,0,0.23);
+  border-radius: 4px;
+  color: rgba(0,0,0,0.6);
+}
+
+.cool-form input:focus,
+.cool-form select:focus,
+.cool-form textarea:focus {
+  outline: none;
+}
+
+.cool-form textarea {
+  min-height: 130px;
+  resize: none;
+}
+
+.cool-form button {
+  width: 40%;
+}
+
+.build-community{
+  background-image: url('assets/images/field.jpeg');
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 5% 8vw 5% 8vw;
+}
+
+.build-community-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 50px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 12px;
+  backdrop-filter: blur(4px);
+  width: fit-content;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-container {
+  width: 84vw;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-container nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+/*  */
+
+.blog {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.blog-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.author-titles {
+  display: flex;
+  flex-direction: column;
+}
+
+.author img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.video-container video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.best-hike {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 100%;
+  height: 700px;
+  margin-bottom: 50px;
+}
+
+.best-hike-photos img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.best-hike-photos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 100%;  
+  gap: 3%;
+}
+
+.small-photos {
+  display: grid;
+  grid-template-rows: 57% 40%;
+  max-width: 100%;
+  gap: 3%;
+}
+
+.best-hike-texts {
+  padding-left: 35px;
+  padding-top: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0.8rem
+}
+
+.hightlights {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 100%;  
+  gap: 2%;
+}
+
+.hightlight img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.disclaimer {
+  padding: 19px 29px;
+  background-color: #FAFAFA;
+  border-radius: 4px;
+}
