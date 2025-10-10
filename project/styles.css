@@ -157,18 +157,21 @@ button{
   font-size: 1.4rem;
   font-family: "Roboto";
   color: var(--main-text-color);
+  line-height: 1.4rem;
 }
 
 .medium-label {
   font-size: 1.6rem;
   font-family: "Roboto";
   color: var(--main-text-color);
+  line-height: 1.6;
 }
 
 .big-label {
   font-size: 1.9rem;
   font-family: "Roboto";
   color: var(--main-text-color);
+  line-height: 2.9rem;
 }
 
 .title {
@@ -303,4 +306,79 @@ button{
 
 .cool-form button {
   width: 40%;
+}
+
+.catch-up {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.catch-up-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 100%;  
+  gap: 2%;
+}
+
+.catch-up-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 50px;
+}
+
+.catch-up-sub-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.prekol {
+  padding: 14px 24px;
+  gap: 0px;
+  background-color: #F9F9F9;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.prekol a {
+  width: 10%;
+  padding: 2%;
+} 
+
+.prekol a img {
+  width: 100%;
+}
+
+.big-catch-up img {
+ max-width: 100%;
+ border-radius: 8px;
+}
+
+.small-catch-up img {
+ max-width: 35%;
+ border-radius: 8px;
+}
+
+.small-catch-ups {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.small-catch-up {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: fit-content;
+  background-color: #F9F9F9;
+  border-radius: 8px;
+  padding: 11px;
 }
