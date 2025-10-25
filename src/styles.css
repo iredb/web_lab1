@@ -1,4 +1,4 @@
-:root{
+:root {
   --main-text-color: #272727;
   --cool-color: #ff3e3e;
 }
@@ -7,6 +7,7 @@
   font-family: "Roboto";
   src: url("assets/fonts/Roboto-Bold.ttf") format("ttf");
 }
+
 @font-face {
   font-family: "Changa";
   src: url("assets/fonts/ChangaOne-Regular.ttf");
@@ -26,11 +27,11 @@
 }
 
 header {
-    width: 100%;
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header-container {
@@ -41,12 +42,12 @@ header {
   align-items: center;
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .logo-container {
@@ -68,7 +69,7 @@ body {
 .nav-container span {
   align-self: stretch;
   width: 1px;
-  background-color:#EEEEEE;
+  background-color: #EEEEEE;
 }
 
 .main-section {
@@ -77,7 +78,7 @@ body {
 }
 
 .cover-container {
-  background-image: url('assets/images/space.png');
+  background-image: url('assets/images/cover_background.png');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -94,38 +95,37 @@ body {
 }
 
 .cover-texts {
-    width: 70%;
-    padding-bottom: 3%
+  width: 70%;
+  padding-bottom: 3%
+}
+
+h1,h2,h3 {
+  color: var(--main-text-color);
+  font-family: "Changa";
 }
 
 h1 {
   margin: 0;
   margin-bottom: 5%;
   font-size: 6rem;
-  color: var(--main-text-color);
-  font-family: "Changa";
   font-weight: 100;
 }
 
 h2 {
-  font-family: "Changa";
   font-weight: 100;
-  color: var(--main-text-color);
   font-size: 3.2rem;
   margin: 0;
 }
 
 h3 {
-  font-family: "Changa";
   font-weight: 100;
-  color: var(--main-text-color);
   font-size: 2rem;
   margin: 0;
 }
 
 .cover-desctiprion {
-    font-size: 1.6vw;
-    color: var(--main-text-color);
+  font-size: 1.6vw;
+  color: var(--main-text-color);
 }
 
 .cool-color {
@@ -146,7 +146,7 @@ a {
   text-decoration: none;
 }
 
-button{
+button {
   padding: 15px 25px 15px 25px;
   margin: 0px;
   color: #FFF !important;
@@ -263,8 +263,8 @@ button{
   gap: 32px;
 }
 
-.build-community{
-  background-image: url('assets/images/field.jpeg');
+.build-community {
+  background-image: url('assets/images/build_community_background.jpeg');
   background-size: cover;
   background-position: center;
   min-height: 500px;
@@ -308,9 +308,9 @@ button{
 .cool-form textarea {
   padding: 20px 12px;
   height: 70px;
-  border: 1px solid rgba(0,0,0,0.23);
+  border: 1px solid rgba(0, 0, 0, 0.23);
   border-radius: 4px;
-  color: rgba(0,0,0,0.6);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .cool-form input:focus,
@@ -337,7 +337,7 @@ button{
 .catch-up-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  max-width: 100%;  
+  max-width: 100%;
   gap: 2%;
 }
 
@@ -369,20 +369,20 @@ button{
 .prekol a {
   width: 5vw;
   padding: 2%;
-} 
+}
 
 .prekol a img {
   width: 100%;
 }
 
 .big-catch-up img {
- max-width: 100%;
- border-radius: 8px;
+  max-width: 100%;
+  border-radius: 8px;
 }
 
 .small-catch-up img {
- max-width: 35%;
- border-radius: 8px;
+  max-width: 35%;
+  border-radius: 8px;
 }
 
 .small-catch-ups {
@@ -424,5 +424,3 @@ footer {
   align-items: center;
   gap: 40px;
 }
-
-

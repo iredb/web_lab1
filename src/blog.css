@@ -1,4 +1,4 @@
-:root{
+:root {
   --main-text-color: #272727;
   --cool-color: #ff3e3e;
 }
@@ -7,6 +7,7 @@
   font-family: "Roboto";
   src: url("assets/fonts/Roboto-Bold.ttf") format("ttf");
 }
+
 @font-face {
   font-family: "Changa";
   src: url("assets/fonts/ChangaOne-Regular.ttf");
@@ -26,11 +27,11 @@
 }
 
 header {
-    width: 100%;
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header-container {
@@ -60,15 +61,15 @@ header {
 .nav-container span {
   align-self: stretch;
   width: 1px;
-  background-color:#EEEEEE;
+  background-color: #EEEEEE;
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .main-section {
@@ -82,43 +83,38 @@ main {
   align-items: center;
 }
 
+h1,h2,h3,h4,h5 {
+  font-family: "Changa";
+  color: var(--main-text-color);
+}
+
 h1 {
   margin: 0;
   margin-bottom: 5%;
   font-size: 4.1rem;
-  color: var(--main-text-color);
-  font-family: "Changa";
   font-weight: 100;
 }
 
 h2 {
-  font-family: "Changa";
   font-weight: 100;
-  color: var(--main-text-color);
   font-size: 3.2rem;
   margin: 0;
 }
 
 h3 {
-  font-family: "Changa";
   font-weight: 100;
-  color: var(--main-text-color);
   font-size: 2rem;
   margin: 0;
 }
 
 h4 {
-  font-family: "Changa";
   font-weight: 100;
-  color: var(--main-text-color);
   font-size: 2.6rem;
   margin: 0 0 15px 0;
 }
 
 h5 {
-  font-family: "Changa";
   font-weight: 100;
-  color: var(--main-text-color);
   font-size: 3.4rem;
   margin: 0 0 15px 0;
 }
@@ -131,7 +127,7 @@ a {
   text-decoration: none;
 }
 
-button{
+button {
   padding: 15px 25px 15px 25px;
   margin: 0px;
   color: #FFF !important;
@@ -199,9 +195,9 @@ button{
 .cool-form textarea {
   padding: 20px 12px;
   height: 70px;
-  border: 1px solid rgba(0,0,0,0.23);
+  border: 1px solid rgba(0, 0, 0, 0.23);
   border-radius: 4px;
-  color: rgba(0,0,0,0.6);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .cool-form input:focus,
@@ -219,8 +215,8 @@ button{
   width: 40%;
 }
 
-.build-community{
-  background-image: url('assets/images/field.jpeg');
+.build-community {
+  background-image: url('assets/images/build_community_background.jpeg');
   background-size: cover;
   background-position: center;
   min-height: 500px;
@@ -265,8 +261,6 @@ footer {
   align-items: center;
   gap: 40px;
 }
-
-/*  */
 
 .blog {
   display: flex;
@@ -333,7 +327,7 @@ footer {
 .best-hike-photos {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  max-width: 100%;  
+  max-width: 100%;
   gap: 3%;
 }
 
@@ -362,7 +356,7 @@ footer {
 .hightlights {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  max-width: 100%;  
+  max-width: 100%;
   gap: 2%;
 }
 
