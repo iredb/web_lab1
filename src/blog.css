@@ -173,7 +173,9 @@ footer {
 .blog-header {
   display: flex;
   align-items: center;
+  align-self: center;
   justify-content: space-between;
+  max-width: 90vw;
 }
 
 .author {

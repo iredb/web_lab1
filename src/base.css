@@ -44,6 +44,7 @@ header {
 
 * {
   box-sizing: border-box;
+  font-family: "Roboto";
 }
 
 body {
@@ -51,11 +52,10 @@ body {
 }
 
 h1,h2,h3,h4,h5 {
-  font-family: "Changa";
+  font-family: "Changa" !important;
   color: var(--main-text-color);
   margin: 0;
 }
-
 
 a {
   text-decoration: none;
@@ -63,35 +63,30 @@ a {
 
 .small-label {
   font-size: 1.2rem;
-  font-family: "Roboto";
   color: #939EB4;
   line-height: 1.4rem;
 }
 
 .label {
   font-size: 1.4rem;
-  font-family: "Roboto";
   color: var(--main-text-color);
   line-height: 1.4rem;
 }
 
 .medium-label {
   font-size: 1.6rem;
-  font-family: "Roboto";
   color: var(--main-text-color);
   line-height: 1.6;
 }
 
 .big-label {
   font-size: 1.9rem;
-  font-family: "Roboto";
   color: var(--main-text-color);
   line-height: 2.9rem;
 }
 
 .title {
   font-size: 1.6rem;
-  font-family: "Roboto";
   color: var(--cool-color);
   font-weight: bold;
 }
